@@ -1,0 +1,21 @@
+{
+    "name": "developer/pluginku",
+    "description": "plugin for wordpress theme themeku",
+    "license": "GPLv2+",
+    "authors": [
+        {
+            "name": "agik-setiawan",
+            "email": "setiawanagik@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "slim/slim": "^3.9",
+        "doctrine/dbal": "^2.5"
+    },
+    "autoload": {
+    "psr-4": {
+      "app\\":"app/"
+    }
+  }
+}
